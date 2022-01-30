@@ -1,4 +1,5 @@
 ﻿using SH_MusicPlayer.Lib.Files;
+using SH_MusicPlayer.Lib;
 using System;
 
 namespace SH_MusicPlayer
@@ -12,9 +13,6 @@ namespace SH_MusicPlayer
             Console.WriteLine(string.Join(", ", Data.load("D:\\test.txt")));
 
             Player player = new Player("D:\\test.txt");
-
-            player.SetMusic("D:\\cover\\Claw My Heart.mp3");
-
             player.Play();
 
             Console.ReadKey();

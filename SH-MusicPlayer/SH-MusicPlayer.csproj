@@ -2,12 +2,13 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <RootNamespace>SH_MusicPlayer</RootNamespace>
     <ApplicationIcon />
     <StartupObject />
     <AssemblyName>SH-MusicPlayer</AssemblyName>
     <UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
