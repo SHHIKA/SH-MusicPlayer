@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-//using System.Windows.Forms;
 using WMPLib;
 
 namespace SH_MusicPlayer.Lib
@@ -28,7 +27,6 @@ namespace SH_MusicPlayer.Lib
 
             player.URL = playList[index];
         }
-
 
         public void SetMusic(string path)
         {
