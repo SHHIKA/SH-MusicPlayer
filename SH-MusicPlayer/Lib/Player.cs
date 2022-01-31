@@ -52,12 +52,26 @@ namespace SH_MusicPlayer.Lib
         {
             index++;
 
+            if(index >= playList.Count)
+            {
+                Console.WriteLine("next music is not found");
+                index--;
+                return;
+            }
+
             player.URL = playList[index];
         }
 
         public void Back()
         {
             index--;
+
+            if(index < 0)
+            {
+                Console.WriteLine("back music is not found");
+                index++;
+                return;
+            }
 
             player.URL = playList[index];
         }
